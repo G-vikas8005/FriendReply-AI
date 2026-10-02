@@ -1,0 +1,13 @@
+{
+  "name": "friendreply-ai",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "start": "npm --prefix backend start",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
